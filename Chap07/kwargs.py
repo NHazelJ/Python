@@ -2,7 +2,8 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 def main():
-    kitten(Buffy = 'meow', Zilla = 'grr', Angel = 'rawr')
+
+    kitten(Buffy = "meow", Zilla = "grr", Angel = "rawr")
 
 def kitten(**kwargs):
     if len(kwargs):
